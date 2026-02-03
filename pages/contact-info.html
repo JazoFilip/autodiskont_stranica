@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Autodiskont</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <link rel="stylesheet"  href="../css/header.css">
+        <link rel="stylesheet"  href="../css/footer.css">
+        <link rel="stylesheet"  href="../css/contact-info.css">
+
+    </head>
+    <body>
+
+        <header>
+
+            <nav class="nav">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo2.png" alt="Autodiskont logo"></a>
+                </div>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="services.html">Usluge</a></li>
+                    <li><a href="contact-info.html" class="active-link">Kontakt</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="contact-section">
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h2>Kontakt</h2>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://www.google.com/maps?q=Maksimilijana Benkovića+8+Nova Gradiška" target="_blank">
+                            Maksimilijana Benkovića 8, 35 400 Nova Gradiška
+                        </a>
+                    </p>
+
+                     <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+385997361535">
+                            +385 99 736 1535
+                        </a>
+                    </p>
+                     <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+385959037107">
+                            +385 95 903 7107
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:da-fi@windowslive.com">
+                            da-fi@windowslive.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-working-hours">
+                    <h2>Radno vrijeme</h2>
+                    <ul>
+                        <li>Pon - Pet: 8:00 - 17:00</li>
+                        <li>Sub: 8:00 - 13:00</li>
+                        <li>Ned: Zatvoreno</li>
+                    </ul>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Ime i prezime" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Poruka" required></textarea>
+                    <button type="submit">Pošalji upit</button>
+                </form>
+
+            </div>
+
+
+        </section>
+
+        <section class="map-section">
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.4714587021024!2d17.38451193980071!3d45.258576298775075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47676229cf3f52db%3A0x27cd6a0cb5530d6b!2sAutodiskont!5e0!3m2!1shr!2shr!4v1769889858624!5m2!1shr!2shr" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"> 
+            </iframe>
+        </section>
+
+
+        <section class="footer">
+
+            <div class="footer-inner">
+
+                <div class="footer-brand">
+                    <img src="../img/logo2.png" alt="logo">
+                </div>
+                
+
+                <div class="footer-links">
+                    <h4>Navigacija</h4>
+                    <ul>
+                        <li><a href="index.html" class="active-link scroll-top">Početna</a></li>
+                        <li><a href="pages/services.html">Usluge</a></li>
+                        <li><a href="pages/contact-info.html">Konrakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-workingHours">
+                    <h4>Radni sati</h4>
+                    <ul>
+                        <li>Pon - Pet: 8:00 - 17:00</li>
+                        <li>Sub: 8:00 - 13:00</li>
+                        <li>Ned: Zatvoreno</li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://www.google.com/maps?q=Maksimilijana Benkovića+8+Nova Gradiška" 
+                            target="_blank" rel="noopener">
+                             Maksimilijana Benkovića 8, 35 400 Nova Gradiška
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+385997361535">
+                             +385 99 736 1535
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:da-fi@windowslive.com">
+                             da-fi@windowslive.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+             <div class="footer-bottom">
+                <p>© <span id="year"></span> Autodiskont. Sva prava pridržana.</p>
+            </div>
+
+        </section>
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>
